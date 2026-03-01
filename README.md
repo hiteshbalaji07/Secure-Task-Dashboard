@@ -1,8 +1,99 @@
 # React + TypeScript + Vite
+# Secure Task Dashboard
 
+A full-stack task management dashboard built using React, TypeScript, and Node.js.  
+This application allows users to register, log in securely, and manage tasks efficiently.
+
+---
+ 🚀 Tech Stack
+
+Frontend
+- React
+- TypeScript
+- Vite
+- React Router
+- Context API (State Management)
+- Axios
+
+Backend
+- Node.js
+- Express
+- JWT Authentication
+- Swagger (API Documentation)
+
+---
+
+📦 Installation & Setup
+
+1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/hiteshbalaji07/Secure-Task-Dashboard.git
+cd Secure-Task-Dashboard
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+2️⃣ Setup Backend
+cd server
+npm install
+npm run dev
+
+Server runs on:
+
+http://localhost:5000
+
+Swagger docs available at:
+
+http://localhost:5000/api-docs
+
+3️⃣ Setup Frontend
+
+Open new terminal:
+
+cd client
+npm install
+npm run dev
+
+Frontend runs on:
+
+http://localhost:5173
+
+🔐 Features
+
+User Registration & Login
+JWT-based Authentication
+Protected Routes
+Task CRUD operations
+API Documentation using Swagger
+Clean UI/UX
+React Context for state management
+
+📚 Third-Party Packages Used
+Frontend
+react-router-dom – Routing
+axios – API requests
+typescript – Type safety
+
+Backend
+express – Server framework
+jsonwebtoken – Authentication
+bcryptjs – Password hashing
+swagger-ui-express – API documentation
+
+⚠️ Limitations
+
+No role-based access control
+No task filtering/sorting
+No email verification
+No deployment configuration included
+
+🚀 Future Improvements
+
+Add role-based authentication
+Add pagination & filtering
+Add dark mode
+Deploy to production (Vercel + Render)
+Add unit testing
+
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
