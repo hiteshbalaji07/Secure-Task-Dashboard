@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+}
+
+.dashboard-container {
+  padding: 40px;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.task-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+
+.task-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.pending {
+  background-color: #f59e0b;
+  color: black;
+}
+
+.done {
+  background-color: #10b981;
+  color: black;
+}
+
+.empty-text {
+  opacity: 0.7;
+}
+.complete-btn {
+  background: #2563eb;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.complete-btn:hover {
+  background: #1e40af;
+}
+
+.badge.done {
+  background: #16a34a;
+}
+
+.badge.pending {
+  background: #f59e0b;
+}
+.dashboard-container {
+  padding: 40px;
+}
+
+.dashboard-title {
+  margin-bottom: 30px;
+}
+
+.task-card {
+  background: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.badge.done {
+  background: #16a34a;
+}
+
+.badge.pending {
+  background: #f59e0b;
+}
+
+.complete-btn {
+  background: #2563eb;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.complete-btn:hover {
+  background: #1e40af;
+}
+.create-task {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.create-task input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.create-task button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #16a34a;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.create-task button:hover {
+  background: #15803d;
+}
